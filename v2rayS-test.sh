@@ -126,7 +126,9 @@ EOF
 #展示信息
      systemctl status v2ray
      systemctl status nginx
-     grenn “======================================================================================”
+     echo ""
+     green “======================================================================================”
+     echo ""
      green "Congratulations!,v2ray services is Ready "
      green "Config INFO is showed below"
      blue "TimeN:" && echo "$timenow"
